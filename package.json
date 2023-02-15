@@ -1,0 +1,44 @@
+{
+  "name": "llx-cli",
+  "version": "1.0.0",
+  "description": "Quickly create vue.js template project scaffolding",
+  "bin": {
+    "llx": "bin/llx.js"
+  },
+  "main": "llx.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuxing997/llx-cli",
+    "directory": "llx-cli"
+  },
+  "author": {
+    "name": "liuxing",
+    "email": "liuxing997@foxmail.com",
+    "url": "https://liuyingxing.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuxing997/llx-cli/issues"
+  },
+  "homepage": "https://cli.liuyingxing.com/",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "lx",
+    "llx",
+    "liuxing",
+    "vue",
+    "cli"
+  ],
+  "dependencies": {
+    "chalk": "4",
+    "commander": "^9.4.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "8",
+    "log-symbols": "4",
+    "ora": "5",
+    "shelljs": "^0.8.5"
+  }
+}
