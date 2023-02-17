@@ -31,6 +31,7 @@ llx create demo
 执行命令后会提示选择创建 vite-vue3-ts-vueRouter-pinia-antDesign 或 vite-vue3-ts-vueRouter-pinia-elementPlus项目。
 
 2023.02.17 新增vite-vue3-ts-vueRouter-pinia-arcoDesign 和 vite-vue3-ts-vueRouter-pinia-Naive UI 项目.
+
 ---
 Thanks for using llx-cli. Development by 刘兴.
 
