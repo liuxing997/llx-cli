@@ -12,7 +12,7 @@ logs.g("Thank you for use llx cli !");
 program
   .command("create [projectName]")
   .description("create a new project")
-  .option("-f,--force", "overwrite target directory if it exist")
+  // .option("-f,--force", "overwrite target directory if it exist")
   .action((projectName) => {
     create(projectName);
   });
