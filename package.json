@@ -1,6 +1,6 @@
 {
   "name": "llx-cli",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Quickly create vue.js template project scaffolding",
   "bin": {
     "llx": "bin/llx.js"

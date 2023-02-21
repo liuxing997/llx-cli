@@ -3,7 +3,6 @@
 const { Command } = require("commander");
 const program = new Command();
 const create = require("../lib/create");
-
 const logs = require("../utils/log");
 
 logs.g("Thank you for use llx cli !");
@@ -11,7 +10,7 @@ logs.g("Thank you for use llx cli !");
 // 创建项目
 program
   .command("create [projectName]")
-  .description("create a new project")
+  .description("create a new vue3 project from llx's template")
   // .option("-f,--force", "overwrite target directory if it exist")
   .action((projectName) => {
     create(projectName);

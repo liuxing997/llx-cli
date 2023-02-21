@@ -7,35 +7,41 @@
 ![Month Downloads](https://img.shields.io/npm/dm/llx-cli?style=flat-square)
 
 
-## 用法
+## Usage
 
-### 安装
+### Install
 
 ```shell
 # yarn 
 yarn global add llx-cli
+```
+```shell
 # npm 
 npm install llx-cli -g
 ```
 
-### 创建项目
+### Create Project
 
 ```shell
-llx create <项目名>
+llx create <ProjectName>
 ```
-如创建名为 `demo` 的项目，使用命令：
+To create a project called 'demo', use the command:
 ```shell
 llx create demo
 ```
 
-执行命令后会提示选择创建 vite-vue3-ts-vueRouter-pinia-antDesign 或 vite-vue3-ts-vueRouter-pinia-elementPlus项目。
+### Supported Templates
 
-2023.02.17 新增vite-vue3-ts-vueRouter-pinia-arcoDesign 和 vite-vue3-ts-vueRouter-pinia-Naive UI 项目。
+After executing the command, you are prompted to choose to create a vite-vue3-ts-vueRouter-pinia-antDesign or vite-vue3-ts-vueRouter-pinia-elementPlus project.
 
+2023.02.17 Added vite-vue3-ts-vueRouter-pinia-arcoDesign and vite-vue3-ts-vueRouter-pinia-Naive UI projects.
+
+2023.02.21 New vite-vue3-ts-vueRouter-pinia-viewDesign project.
+
+### Contact the author
 ---
-Thanks for using llx-cli. Development by 刘兴.
+Thanks for using llx-cli. Development by liuxing.
 
 If you have any questions, please contact me (liuxing997@foxmail.com).
 
 ---
-
